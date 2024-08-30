@@ -1,0 +1,10 @@
+﻿<Application x:Class="OnlineOrders.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OnlineOrders"
+             xmlns:ViewModels="clr-namespace:OnlineOrders.MVVM.ViewModel"
+             StartupUri="MVVM/View/Main.xaml">
+    <Application.Resources>
+        <ViewModels:MainViewModel x:Key="MainViewModel"/>
+    </Application.Resources>
+</Application>
